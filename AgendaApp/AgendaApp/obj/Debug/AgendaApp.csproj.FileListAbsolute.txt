@@ -1,0 +1,10 @@
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\bin\Debug\AgendaApp.exe.config
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\bin\Debug\AgendaApp.exe
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\bin\Debug\AgendaApp.pdb
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.csproj.AssemblyReference.cache
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.AgendaGUI.resources
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.Properties.Resources.resources
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.csproj.GenerateResource.cache
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.csproj.CoreCompileInputs.cache
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.exe
+C:\Users\kiann\Desktop\GitHub Reposetories\AgendaApp\AgendaApp\AgendaApp\obj\Debug\AgendaApp.pdb
