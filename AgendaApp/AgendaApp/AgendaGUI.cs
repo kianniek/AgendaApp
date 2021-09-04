@@ -42,6 +42,18 @@ namespace AgendaApp
 		{
 			InitializeComponent();
 			DagMaandJaar.DataSource = verschillendeAgenda;
+			if(DagMaandJaar.SelectedIndex == 0)
+            {
+				//agenda van de dag
+            }
+			if (DagMaandJaar.SelectedIndex == 1)
+			{
+				//agenda van de maand
+			}
+			if (DagMaandJaar.SelectedIndex == 2)
+			{
+				//agenda van de jaar
+			}
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
