@@ -32,11 +32,30 @@ namespace AgendaApp
 			"November",
 			"December"
 		};
-		private int[] WeekNumbers(int year, int month)
-        {
-			int[] weekNumbers = {};
-			return weekNumbers;
-        }
+                private int[] WeekNumbers(int year, int month)
+                {
+                        // Collect all ISO week numbers that occur in the
+                        // specified month.  This previously returned an
+                        // empty array which made the method useless.
+                        List<int> weeks = new List<int>();
+                        int daysInMonth = DateTime.DaysInMonth(year, month);
+
+                        for (int day = 1; day <= daysInMonth; day++)
+                        {
+                                DateTime current = new DateTime(year, month, day);
+                                int week = myCal.GetWeekOfYear(
+                                        current,
+                                        CalendarWeekRule.FirstFourDayWeek,
+                                        DayOfWeek.Monday);
+                                if (!weeks.Contains(week))
+                                {
+                                        weeks.Add(week);
+                                }
+                        }
+
+                        weeks.Sort();
+                        return weeks.ToArray();
+                }
 
 		public AgendaGUI()
 		{
