@@ -1,0 +1,15 @@
+{
+  "name": "smart-household-agenda",
+  "version": "0.1.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0"
+  }
+}
